@@ -20,5 +20,5 @@ _italica texto_
 **_negrita italica_**
 
 
-![Imagen programacion] (https://neoattack.com/wp-content/uploads/2021/05/lenguajes-programacion-1024x576.jpg)
+![Imagen programacion](https://neoattack.com/wp-content/uploads/2021/05/lenguajes-programacion-1024x576.jpg)
 
