@@ -92,7 +92,7 @@ int main()
   double valor = 3.14;
   
   // Ejercicio 3
-  double = 9.81;
+  double valor = 9.81;
   
   // Ejercicio 4
   char letra = "AB";
@@ -120,22 +120,32 @@ int main()
   int numero = 10;
   
   // Ejercicio 12
+  float altura = 1.75;
   
   // Ejercicio 13
-  // Ejercicio 14
+  char inicial = 'J';
   
+  // Ejercicio 14
+  bool esMayor = true;
+  bool esMayor = false;
   // Ejercicio 15
   string apellido = "Juan";
   string nombre = "Juan";
   
   // Ejercicio 16
+  int resultado = 5;
+  
   // Ejercicio 17
+  double area = 3.14;
   
   // Ejercicio 18
   int edad = 25;
   
   // Ejercicio 19
+  float peso = 70.5;
+  
   // Ejercicio 20
+  int suma = 10 + 20;
 
   
 }
