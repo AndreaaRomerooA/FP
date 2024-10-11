@@ -56,6 +56,12 @@ int main()
 	cin >> apellidoPaterno;
 	cout << "Tu apellido paterno es " << apellidoPaterno << "." << endl;
 
+	// Variable tipo long con identificador casa
+	long long casa = 5553706444;
+	cout << "Número de casa: " << casa << endl;
+
+	
+
 
 
 
