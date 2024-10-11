@@ -86,23 +86,54 @@ int main()
   // EJERCICIOS DEL MODULO: Tipos de variables 
 
   // Ejercicio 1
+  int numero1 = 5;
+  
   // Ejercicio 2
+  double valor = 3.14;
+  
   // Ejercicio 3
+  double = 9.81;
+  
   // Ejercicio 4
+  char letra = "AB";
+  
   // Ejercicio 5
+  bool esVerdadero = true;
+  
   // Ejercicio 6
+  int numero = 10;
+  double numero = 10.5;
+  
   // Ejercicio 7
+  string nombre = "Juan";
+  
   // Ejercicio 8
+  const double pi = 3.14;
+  
   // Ejercicio 9
+  int suma = 5;
+  
   // Ejercicio 10
+  int numero = 10;
+  
   // Ejercicio 11
+  int numero = 10;
+  
   // Ejercicio 12
+  
   // Ejercicio 13
   // Ejercicio 14
+  
   // Ejercicio 15
+  string apellido = "Juan";
+  string nombre = "Juan";
+  
   // Ejercicio 16
   // Ejercicio 17
+  
   // Ejercicio 18
+  int edad = 25;
+  
   // Ejercicio 19
   // Ejercicio 20
 
