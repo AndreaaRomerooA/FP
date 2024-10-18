@@ -35,21 +35,22 @@ int main()
 	cout << "Número en metros: " << (yardas * n1) << endl;
 	cout << endl;
 
-	// EJERCICIO 1.4 Depreciación de un auto del 80% de 200,000 por 5 años 
-	cout << "Depreciación de auto: " << endl; // TERMINARRRRRRRR
-	int valor = 200000;
-	float depreciar = 0.8;
-	int depreciacion = valor * depreciar;
-	int años = 5;
-	int valor2 = depreciacion / años;
-	cout << "La depreciación por " << años << " años será de " << (depreciacion / años) << " pesos." << endl;
-	cout << endl;
-	cout << "Depreciacion el primer año: " << (valor - valor2) << endl;
-	cout << "Depreciacion el segundo año: " << (valor - (2 * valor2)) << endl;
-	cout << "Depreciacion el tercer año: " << (valor - (3 * valor2)) << endl;
-	cout << "Depreciacion el cuarto año: " << (valor - (4 * valor2)) << endl;
-	cout << "Depreciacion el quinto año: " << (valor - (5 * valor2)) << endl;
-	
+	// EJERCICIO 1.4 Depreciación de un auto del 80% de 200,000 por 5 años  /////////////////////////CORREGIR
+       int precio = 200000;
+   float depreciar = 0.8;
+ int a = 5;
+ int depreciacion = precio * depreciar;
+ int valor2 = depreciacion / a;
+
+ cout << "La depreciación por " << a << " años será de " << valor2 << " pesos." << endl;
+cout << endl;
+
+cout << "Depreciacion el primer año: " << (precio - valor2) << endl;
+cout << "Depreciacion el segundo año: " << (precio - (2 * valor2)) << endl;
+cout << "Depreciacion el tercer año: " << (precio - (3 * valor2)) << endl;
+cout << "Depreciacion el cuarto año: " << (precio - (4 * valor2)) << endl;
+cout << "Depreciacion el quinto año: " << (precio - (5 * valor2)) << endl;
+
 	// EJERCICIO 1.5 Deduccion de impuestos del salario 
 	int sueldo = 25000;
 	int fijo = 900;
