@@ -37,8 +37,19 @@ int main()
 
 	// EJERCICIO 1.4 Depreciación de un auto del 80% de 200,000 por 5 años 
 	cout << "Depreciación de auto: " << endl; // TERMINARRRRRRRR
+	int valor = 200000;
+	float depreciar = 0.8;
+	int depreciacion = valor * depreciar;
+	int años = 5;
+	int valor 2 = depreciacion / años;
+	cout << "La depreciación por " << años << " años será de " << (depreciacion / años) << " pesos." << endl;
+	cout << endl;
+	cout << "Depreciacion el primer año: " << (valor - valor2) << endl;
+	cout << "Depreciacion el segundo año: " << (valor - (2 * valor2)) << endl;
+	cout << "Depreciacion el tercer año: " << (valor - (3 * valor2)) << endl;
+	cout << "Depreciacion el cuarto año: " << (valor - (4 * valor2)) << endl;
+	cout << "Depreciacion el quinto año: " << (valor - (5 * valor2)) << endl;
 	
-
 	// EJERCICIO 1.5
 
 	//EJERCICIO 1.6 Operaciones con variables
