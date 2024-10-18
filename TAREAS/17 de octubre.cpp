@@ -37,6 +37,7 @@ int main()
 
 	// EJERCICIO 1.4 Depreciación de un auto del 80% de 200,000 por 5 años 
 	cout << "Depreciación de auto: " << endl; // TERMINARRRRRRRR
+	
 
 	// EJERCICIO 1.5
 
@@ -80,7 +81,9 @@ int main()
 	// 8
 	cout << "((a * b) < 100): " << ((a * b) < 100) << endl;
 	// 9
-	cout << "((a - b) < 0): " <<
+	cout << "((a - b) < 0): " << ((a - b) < 0) << endl;
+	// 10
+	cout << "(a < 20): " << (a < 20) << endl;
 
 
 
