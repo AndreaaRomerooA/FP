@@ -41,7 +41,7 @@ int main()
 	float depreciar = 0.8;
 	int depreciacion = valor * depreciar;
 	int años = 5;
-	int valor 2 = depreciacion / años;
+	int valor2 = depreciacion / años;
 	cout << "La depreciación por " << años << " años será de " << (depreciacion / años) << " pesos." << endl;
 	cout << endl;
 	cout << "Depreciacion el primer año: " << (valor - valor2) << endl;
