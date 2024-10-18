@@ -50,7 +50,13 @@ int main()
 	cout << "Depreciacion el cuarto año: " << (valor - (4 * valor2)) << endl;
 	cout << "Depreciacion el quinto año: " << (valor - (5 * valor2)) << endl;
 	
-	// EJERCICIO 1.5
+	// EJERCICIO 1.5 Deduccion de impuestos del salario 
+	int sueldo = 25000;
+	int fijo = 900;
+	float porcentual = 0.015;
+	cout << "Impuesto a deducir: $" << ((sueldo - fijo) * porcentual) << endl;
+	cout << "Sueldo neto: $" << (sueldo - ((sueldo - fijo) * porcentual)) << endl; 
+	cout << endl;
 
 	//EJERCICIO 1.6 Operaciones con variables
 	int v1 = 3;
