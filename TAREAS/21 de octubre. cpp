@@ -1,0 +1,71 @@
+#include <iostream>
+#include <string>
+#include <iomanip>
+#include <algorithm>
+#include <sstream> 
+
+using namespace std;
+
+int main()
+{
+	// EJERCICIO 1.1
+	int num;
+	cout << "Ingrese un número: ";
+	cin >> num;
+	cout << "El cuadrado de " << num << " es " << (num * num) << endl;
+	cout << endl;
+
+	// EJERCICIO 1.2
+	int x;
+	cout << "Ingrese un número: ";
+	cin >> x;
+	cout << x << " -- "
+		<< (x * 2) << " -- "
+		<< (x * 3) << " -- "
+		<< (x * 4) << " -- "
+		<< (x * 5) << endl;
+	cout << endl;
+
+	// EJERCICIO 1.3
+	float peso;
+	float libras = 2.2;
+	cout << "Ingrese su peso: ";
+	cin >> peso;
+	cout << "Su peso en libras es de " << (peso * libras) << " libras" << endl;
+	cout << endl;
+
+	// EJERCICIO 1.4
+	int v1;
+	cout << "Ingrese el primer numero: ";
+	cin >> v1;
+	int v2;
+	cout << "Ingrese el segundo numero: ";
+	cin >> v2;
+	int v3;
+	cout << "Ingrese el tercer numero: ";
+	cin >> v3;
+	float total = v1 + v2 + v3;
+	float promedio = total / 3;
+	cout << "El promedio de los números es de " << promedio << endl;
+	cout << endl;
+
+	// EJERCICIO 1.5
+	int cuenta;
+	cout << "Ingrese el total de la cuenta y el porcentaje de propina a aplicar" << endl;
+	cout << "Total de la cuenta: ";
+	cin >> cuenta;
+	int porcentaje;
+	cout << "Porcentaje de propina: ";
+	cin >> porcentaje;
+	cout << "La cantidad a dar de propina es de " << 
+
+
+
+
+
+
+	
+
+
+
+}
