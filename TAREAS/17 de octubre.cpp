@@ -3,6 +3,7 @@
 #include <iomanip>
 #include <algorithm>
 #include <sstream> 
+
 using namespace std;
 
 int main()
@@ -38,10 +39,10 @@ int main()
 	// EJERCICIO 1.4 Depreciación de un auto del 80% de 200,000 por 5 años
 	int precio = 200000;
 	float depreciar = 0.8;
-	int a = 5;
+	int valor1 = 5;
 	int depreciacion = precio * depreciar;
-	int valor2 = depreciacion / a;
-	cout << "La depreciación por " << a << " años de un auto de $200,000 será de " << valor2 << " pesos." << endl;
+	int valor2 = depreciacion / valor1;
+	cout << "La depreciación por " << valor1 << " años de un auto de $200,000 será de " << valor2 << " pesos anuales." << endl;
 	cout << endl;
 
 	// EJERCICIO 1.5 Deduccion de impuestos del salario 
@@ -49,7 +50,7 @@ int main()
 	int fijo = 900;
 	float porcentual = 0.015;
 	cout << "Impuesto a deducir: $" << ((sueldo - fijo) * porcentual) << endl;
-	cout << "Sueldo neto: $" << (sueldo - ((sueldo - fijo) * porcentual)) << endl; 
+	cout << "Sueldo neto: $" << (sueldo - ((sueldo - fijo) * porcentual)) << endl;
 	cout << endl;
 
 	//EJERCICIO 1.6 Operaciones con variables
@@ -95,23 +96,6 @@ int main()
 	cout << "((a - b) < 0): " << ((a - b) < 0) << endl;
 	// 10
 	cout << "(a < 20): " << (a < 20) << endl;
-
-
-
-
-
-
-
-	int num = 10;
-	if (num % 2 == 0) // nunca poner ; en esta linea 
-	{
-		cout << "par " << endl;
-
-	}
-	else // nunca lleva condición
-	{
-		cout << "impar " << endl;
-	}
 
 
 }
