@@ -132,17 +132,17 @@ mc = peso / (estatura * estatura);
 cout << "Masa corporal: " << mc << endl;
 if (mc < 18.5)
 {
-    cout << "abajo" << endl;
+    cout << "Abajo del peso normal" << endl;
 }
 if (mc >= 18.5 and mc < 25)
 {
-    cout << "normal" << endl;
-
+    cout << "Peso normal" << endl;
 }
 if (mc >= 25 and mc < 30)
 {
-    cout << "alto" << endl;
+    cout << "Sobrepeso" << endl;
 }
+if
 
 }
 
