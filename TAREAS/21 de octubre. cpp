@@ -88,6 +88,7 @@ int main()
 	{
 		cout << "El numero es positivo" << endl;
 	}
+cout << endl;
 
 // EJERCICIO 1.8
     string email;
@@ -105,6 +106,7 @@ else
 {
     cout << "Contraseña incorrecta" << endl;
 }
+cout << endl;
 
 // EJERCICIO 1.9
     float farenheith;
@@ -119,8 +121,8 @@ else
     {
         cout << grados << " centigrados" << endl;
     }
-
-// EJERCICIO 
+cout << endl;
+ 
 // EJERCICIO 1.10
 double peso, estatura;
 double mc;
