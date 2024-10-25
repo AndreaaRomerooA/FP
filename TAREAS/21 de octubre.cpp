@@ -88,74 +88,73 @@ int main()
 	{
 		cout << "El numero es positivo" << endl;
 	}
-cout << endl;
-
-// EJERCICIO 1.8
-    string email;
-    string passwordIngresado;
-cout << "Ingresa tu email: ";
-cin >> email;
-cout << "Contraseña: ";
-cin >> passwordIngresado;
-if(passwordIngresado == "12345")
-{
-    cout << "Contraseña correcta" << endl;
-
-}
-else
-{
-    cout << "Contraseña incorrecta" << endl;
-}
-cout << endl;
-
-// EJERCICIO 1.9
-    float farenheith;
-    cout << "Ingrese los grados Frenheith: ";
-    cin >> farenheith;
-    float grados = ((farenheith - 32) * 5) / 9;
-    if (farenheith == 32)
-    {
-        cout << "Cero grados centigrados" << endl;
-    }
-    else
-    {
-        cout << grados << " centigrados" << endl;
-    }
-cout << endl;
+	cout << endl;
+	
+	// EJERCICIO 1.8
+	string email;
+	string passwordIngresado;
+	cout << "Ingresa tu email: ";
+	cin >> email;
+	cout << "Contraseña: ";
+	cin >> passwordIngresado;
+	if (passwordIngresado == "12345")
+	{
+		cout << "Contraseña correcta" << endl;
+	}
+	else
+	{
+		cout << "Contraseña incorrecta" << endl;
+	}
+	cout << endl;
+	
+	// EJERCICIO 1.9
+	float farenheith;
+	cout << "Ingrese los grados Frenheith: ";
+	cin >> farenheith;
+	float grados = ((farenheith - 32) * 5) / 9;
+	if (farenheith == 32)
+	{
+		cout << "Cero grados centigrados" << endl;
+	}
+	else
+	{
+		cout << grados << " centigrados" << endl;
+	}
+	cout << endl;
  
-// EJERCICIO 1.10
-double peso, estatura;
-double mc;
-cout << "Ingresa tu peso: ";
-cin >> peso;
-cout << "Ingresa tu estatura: ";
-cin >> estatura;
-mc = peso / (estatura * estatura);
-cout << "Masa corporal: " << mc << endl;
-if (mc < 18.5)
-{
-    cout << "Abajo del peso normal" << endl;
-}
-if (mc >= 18.5 and mc < 25)
-{
-    cout << "Peso normal" << endl;
-}
-if (mc >= 25 and mc < 30)
-{
-    cout << "Sobrepeso" << endl;
-}
-if(mc >= 30 and mc < 35)
-{
-cout << "Obeso clase 1" << endl;
-}
-if(mc >= 35 and mc < 40)
-{
-cout << "Obeso clase 2" << endl;
-}
-if(mc >= 40)
-{
-cout << "Obeso clase 3" << endl;
-}
+	// EJERCICIO 1.10
+	double peso, estatura;
+	double mc;
+	cout << "Ingresa tu peso: ";
+	cin >> peso;
+	cout << "Ingresa tu estatura: ";
+	cin >> estatura;
+	mc = peso / (estatura * estatura);
+	cout << "Masa corporal: " << mc << endl;
+	if (mc < 18.5)
+	{
+		cout << "Abajo del peso normal" << endl;
+	}
+	if (mc >= 18.5 and mc < 25)
+	{
+		cout << "Peso normal" << endl;
+	}
+	if (mc >= 25 and mc < 30)
+	{
+		cout << "Sobrepeso" << endl;
+	}
+	if (mc >= 30 and mc < 35)
+	{
+		cout << "Obeso clase 1" << endl;
+	}
+	if (mc >= 35 and mc < 40)
+	{
+		cout << "Obeso clase 2" << endl;
+	}
+	if (mc >= 40)
+	{
+		cout << "Obeso clase 3" << endl;
+	}
 
 }
 
