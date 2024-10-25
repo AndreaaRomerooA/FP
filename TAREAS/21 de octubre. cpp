@@ -142,7 +142,18 @@ if (mc >= 25 and mc < 30)
 {
     cout << "Sobrepeso" << endl;
 }
-if
+if(mc >= 30 and mc < 35)
+{
+cout << "Obeso clase 1" << endl;
+}
+if(mc >= 35 and mc < 40)
+{
+cout << "Obeso clase 2" << endl;
+}
+if(mc >= 40)
+{
+cout << "Obeso clase 3" << endl;
+}
 
 }
 
