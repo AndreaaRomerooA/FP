@@ -16,7 +16,7 @@ int main()
     cin >> ss;
     cout << endl;
     cout << "La hora actual es " << hh << ":" << mm << ":" << (ss + 1) << endl;
-    if (ss == 59)
+    if (ss <= 59)
     {
         mm ++;
         ss = 0;
