@@ -106,8 +106,67 @@ int main()
     {
         cout << "El precio del boleto es de " << precio << "$ US" << endl;
     }
+    cout << endl;
+    cout << endl;
 
 
+    // EJERCICIO 1.20
+    // Si un ángulo es igual a 90 grados, imprimir el mensaje "El ángulo es un ángulo recto" sino imprimir el mensaje "El ángulo no es un ángulo recto".
+    int ang;
+    cout << "Angulo: ";
+    cin >> ang;
+    if (ang == 90)
+    {
+        cout << "El angulo es un angulo recto" << endl;
+    }
+    else
+    {
+        cout << "El angulo no es un angulo recto" << endl;
+    }
+    cout << endl;
+
+    // Si la temperatura es superior a 100 grados, visualizar el mensaje “por encima del punto de ebullición del agua” sino visualizar el mensaje “por debajo del punto de ebullición del agua”.
+    int temp;
+    cout << "Temperatura: ";
+    cin >> temp;
+    if (temp > 100)
+    {
+        cout << "Por encima del punto de ebullicion del agua" << endl;
+    }
+    else
+    {
+        cout << "Por debajo del punto de ebullicion del agua" << endl;
+    }
+    cout << endl;
+
+    // Recibir un número, Si este número es positivo, sumar el número a total de positivos usando una variable que acumule los números negativos, sino sumar al total de negativos usando una variable que acumule los números negativos.
+
+
+    // Si “x” es mayor que “y”, y “z” es menor que “y”, imprimir “x”.
+    int x, y, z;
+    cout << "x = ";
+    cin >> x;
+    cout << "y = ";
+    cin >> y;
+    cout << "z = ";
+    cin >> z;
+    if (x > y and z < y)
+    {
+        cout << x << endl;
+    }
+    cout << endl;
+
+    // Si la distancia es mayor que 20 y menos que 35, crear y leer un valor para luna variable de tipo entero llamada “tiempo”.
+    int dist, tiempo;
+    cout << "Distancia: ";
+    cin >> dist;
+    cout << "Tiempo: ";
+    cin >> tiempo;
+    if (dist > 20 and dist < 35)
+    {
+        cout << tiempo << endl;
+    }
+    cout << endl;
 
 
 
