@@ -91,7 +91,24 @@ int main()
     cout << endl;
 
 
-    // EJERCICIO 
+    // EJERCICIO 1.19
+    // Determinar el precio del boleto de ida y vuelta en avión
+    int distancia;
+    cout << "Distancia a recorrer: ";
+    cin >> distancia;
+    int vuelo = distancia * 2;
+    int precio = vuelo * 2.5;
+    if (distancia > 800)
+    {
+        cout << "El precio del boleto es de " << (precio * 0.70) << "$ US" << endl;
+    }
+    else 
+    {
+        cout << "El precio del boleto es de " << precio << "$ US" << endl;
+    }
+
+
+
 
 
 }
