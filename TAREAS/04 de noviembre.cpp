@@ -4,26 +4,6 @@ using namespace std;
 int main()
 {
 
-    // EJERCICIO 1.18 
-   // Crear un programa al que le solicitemos la hora HH, MM, SS y nos calcule la hora dentro de un segundo más tarde.
-    int hh, mm, ss;
-    cout << "Ingresa la hora" << endl;
-    cout << "Hora: ";
-    cin >> hh;
-    cout << "Minutos: ";
-    cin >> mm;
-    cout << "Segundos: ";
-    cin >> ss;
-    cout << endl;
-    cout << "La hora actual es " << hh << ":" << mm << ":" << (ss + 1) << endl;
-    if (ss <= 59)
-    {
-        mm ++;
-        ss = 0;
-    }
-    
-    
-
     // EJERCICIO 1.16 
     // Diseñar un programa que lea tres números A, B, C y visualice en pantalla el valor del mayor.
     int n1, n2, n3;
@@ -86,7 +66,32 @@ int main()
     }
     cout << endl;
     cout << endl;
- 
 
 
-}0
+    // EJERCICIO 1.18 
+    // Crear un programa al que le solicitemos la hora HH, MM, SS y nos calcule la hora dentro de un segundo más tarde.
+    int hh, mm, ss;
+    cout << "Ingresa la hora" << endl;
+    cout << "Hora: ";
+    cin >> hh;
+    cout << "Minutos: ";
+    cin >> mm;
+    cout << "Segundos: ";
+    cin >> ss;
+    cout << endl;
+    if (ss == 59)
+    {
+        cout << "La hora actual es " << hh << ":" << (mm + 1) << ":00" << endl;
+    }
+    else 
+    {
+        cout << "La hora actual es " << hh << ":" << mm << ":" << (ss + 1) << endl;
+    }
+    cout << endl;
+    cout << endl;
+
+
+    // EJERCICIO 
+
+
+}
