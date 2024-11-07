@@ -49,4 +49,34 @@ int main()
         cout << "Mes invalido" << endl;
     }
 
+
+    // SRAND
+     srand(time(NULL));
+ int castigo = 0;
+ int vida = 12;
+ int premio = 0;
+ cout << "Vida inicial: " << vida << endl;
+
+ while (vida > 0)
+ {
+     // deducir uno vida
+     vida--;
+     cout << "Costo de ciclo: " << vida << endl;
+     // castigo
+     castigo = rand() % 2;   // % 2 limite de numeros, es decir, solo mostrara 0 y 1
+     if (castigo == 1)
+     {
+         vida = vida - 3;
+         cout << "Castigo: " << vida << endl;
+     }
+     premio = rand() % 2;
+     if (premio == 1)
+     {
+         vida = vida + 3;
+         cout << "Premio: " << vida << endl;
+     }
+     cout << "Vida despues de ciclo: " << vida << endl;
+ }
+
+    
 }
