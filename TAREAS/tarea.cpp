@@ -49,8 +49,21 @@
                 cout << "Resultado de operacion: " << (numero1 * numero2) << endl;
                 cout << endl;
             }
-        } while
-            (opcion2 != "f");
+            if (opcion2 == "d")
+            {
+                cout << "Resultado de operacion: " << (numero1 / numero2) << endl;
+                cout << endl;
+            }
+            if (opcion2 == "e")
+            {
+                cout << "Resultado de operacion: " << (numero1 % numero2) << endl;
+            }
+        } while (opcion2 != "f");
+        break;
+
+
+        // EJERCICIO 1.23
+        long long 
 
        
     
