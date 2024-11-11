@@ -75,5 +75,27 @@ int main()
 	cout << endl;
 	cout << endl;
 
+	// ARREGLOS DE UNA DIMENSION
+
+        const int TAMANO = 10;
+        int naturales[TAMANO]        // los corchetes [ ] se llaman Operador de Indice 
+        { 0,1,2,3,4,5,6,7,8,9 };     // los  { } son un conjunto de datos separados por comas y sirve para inicializar arreglos 
+
+        cout << naturales[0] << endl;
+        naturales[0] = -1000;
+        cout << naturales[0] << endl;
+        cout << endl;
+
+        for (int i = 0; i < TAMANO; i++)
+        {
+	        cout << naturales[i] << endl;
+        }
+	cout << endl;
+
+	for (int elemento : naturales)
+	{
+		cout << elemento << endl;
+	}
+
 
 }
