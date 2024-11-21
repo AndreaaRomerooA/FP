@@ -48,6 +48,42 @@ int main()
         cout << elemento << endl;
     }
 
+/////////////////////////////////////////TAREA
+
+  srand(time(NULL));
+int arreglo[10];
+for (int i = 0; i <= 9; i++)
+{
+    arreglo[i] = rand() % 101;
+}
+for (int elemento : arreglo)
+{
+    cout << elemento << endl;
+}
+cout << endl;
+
+
+// EJERCICIO 1
+int num1;
+do
+{
+    cout << "ingrese un número: ";
+    cin >> num1;
+    cout << num1 << " * 10 = " << (num1 * 10) << endl;
+    
+} while (num1 != 0);
+cout << endl;
+
+
+// EJERCICIO 2
+// que encuentre el mayor elemento de un arreglo de tipo entero.Utilice el arreglo preconstruido
+
+
+// MENOR
+
+
+
+
   
 
 }
