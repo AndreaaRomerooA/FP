@@ -76,7 +76,20 @@ for (int i = 9; i >= 0; i--)
 cout << "El menor es: " << menor << endl;
 cout << endl;
 
+    ////////////////////////////////////////////////////////// EJERCICIO 4
+    int n[10]
+{ 13,45,7,2,56,78,93,45,11,36 };
+int suma = 0, promedio = 0;
 
+for (int i = 0; i <= 10; i++) 
+{
+    suma = suma + n[9];
+}
+promedio = suma / 10;
+cout << "Promedio: " << promedio;
+    
+
+    
     ////////////////////////////////////////////////////////// EJERCICIO 5
     int numeros[10]
 { 13,45,7,2,56,78,93,45,11,36 };
