@@ -60,6 +60,23 @@ cout << "El mayor es: " << mayor << endl;
 cout << endl;
 
 
+    ////////////////////////////////////////////////////////// EJERCICIO 3
+    int numeros[10]
+{ 13,45,7,2,56,78,93,45,11,36 };
+vector <int> vnum
+{ 13,45,7,2,56,78,93,45,11,36 };
+int menor = 100;
+for (int i = 9; i >= 0; i--)
+{
+    if (vnum[i] < menor)
+    {
+        menor = vnum[i];
+    }
+}
+cout << "El menor es: " << menor << endl;
+cout << endl;
+
+
     ////////////////////////////////////////////////////////// EJERCICIO 5
     int numeros[10]
 { 13,45,7,2,56,78,93,45,11,36 };
