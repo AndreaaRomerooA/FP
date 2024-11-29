@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 
 int main()
@@ -21,8 +22,9 @@ for (int elementos : numeros)
 {
     cout << elementos << endl;
 }
-
-    ////////////////////////////////////////////////////////// EJERCICIO 1 CON VECTORES
+cout << endl;
+    
+    // EJERCICIO 1 CON VECTORES
      vector <int> numeros;
  int num;
  num = -1;
@@ -41,9 +43,9 @@ for (int elementos : numeros)
  {
      cout << elementos * 10 << endl;
  }
+cout << endl;
 
-
-    ////////////////////////////////////////////////////////// EJERCICIO 2
+    // EJERCICIO 2
     int numeros[10]
 { 13,45,7,2,56,78,93,45,11,36 };
 vector <int> vnum
@@ -59,8 +61,7 @@ for (int i = 0; i <= 9; i++)
 cout << "El mayor es: " << mayor << endl;
 cout << endl;
 
-
-    ////////////////////////////////////////////////////////// EJERCICIO 3
+    // EJERCICIO 3
     int numeros[10]
 { 13,45,7,2,56,78,93,45,11,36 };
 vector <int> vnum
@@ -76,7 +77,7 @@ for (int i = 9; i >= 0; i--)
 cout << "El menor es: " << menor << endl;
 cout << endl;
 
-    ////////////////////////////////////////////////////////// EJERCICIO 4
+    // EJERCICIO 4
     int n[10]
 { 13,45,7,2,56,78,93,45,11,36 };
 int suma = 0, promedio = 0;
@@ -86,11 +87,11 @@ for (int i = 0; i <= 10; i++)
     suma = suma + n[9];
 }
 promedio = suma / 10;
-cout << "Promedio: " << promedio;
-    
+cout << "Promedio: " << promedio << endl;
+    cout << end;
 
     
-    ////////////////////////////////////////////////////////// EJERCICIO 5
+    // EJERCICIO 5
     int numeros[10]
 { 13,45,7,2,56,78,93,45,11,36 };
 int numero, primero, segundo, tercero, temp = 0;
@@ -119,8 +120,7 @@ for (int i = 2; i <= 9; i++)
 cout << "Segundo mayor: " << segundo << endl;
 cout << endl;
 
-
-    ////////////////////////////////////////////////////////// EJERCICIO 8
+    // EJERCICIO 8
      int numeros[10]
  { 13,45,7,2,56,78,93,45,11,36 };
  int numero, primero, segundo, tercero, temp = 0;
@@ -166,8 +166,7 @@ cout << endl;
  cout << primero << " ," << segundo << " ," << tercero << endl;
  cout << endl;
 
-
-    ////////////////////////////////////////////////////////// EJERCICIO 9
+    // EJERCICIO 9
     int numeros[10]
 { 13,45,7,2,56,78,93,45,11,36 };
 int numero, primero, segundo, tercero, temp = 0;
