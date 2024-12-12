@@ -1,0 +1,244 @@
+
+		//// PRACTICA B
+		// EJERCICIO 1.1
+		// 1
+		int resultado1 = 3 + 5 * 2 / 2 - 1;
+		Console.writeLine(resultado1);
+		// 2
+		int resultado2 = 3 + 10 / 2 - 1;
+		Console.WriteLine(resultado2);
+		// 3
+		int resultado3 = 3 + 5 - 1;
+		Console.WriteLine(resultado3);
+		// 4
+		int resultado4 = 8 - 1;
+		Console.WriteLine(resultado4);
+		// 5
+		int resultado5 = 1 / 3 * 3;
+		Console.WriteLine(resultado5);
+
+
+		// EJERCICIO 1.2 Potencia al cuadrado de cualquier número
+		double numero1;
+		Console.WriteLine("Ingrese un número : ");
+		numero1 = (Console.ReadLine());
+		numero1 = Math.Pow(numero1, 2);
+		Console.WriteLine("La potencia al cuadrado del numero es : "(numero1));
+
+		
+		Console.WriteLine(num);
+		
+
+		// EJERCICIO 1.3 Convertir yardas a metros
+		double n2 = 0.9144;
+		double yardas;
+		Console.WriteLine("Ingrese las yardas: ");
+		yardas = (Console.ReadLine());
+		metros = yardas * n2;
+		Console.WriteLine("Los metros a los que equivale son: "(metros));
+
+
+		// EJERCICIO 1.4 Depreciación de un auto del 80% de 200,000 por 5 años
+		int precio = 200000;
+		double depreciar = 0.8;
+		int valor1 = 5;
+		depreciacion = precio * depreciar;
+		int valor2 = depreciacion / valor1;
+		Console.WriteLine("La depreciación por será de "(valor2));
+
+
+		// EJERCICIO 1.5 Deduccion de impuestos del salario 
+		int sueldo = 25000;
+		int fijo = 900;
+		double porcentual = 0.015;
+		impuesto = sueldo - fijo * porcentual;
+		neto = sueldo - impuesto;
+		Console.WriteLine("Impuesto a deducir: $"(impuesto));
+		Console.WriteLine("Sueldo neto: $"(neto));
+
+
+		//EJERCICIO 1.6 Operaciones con variables
+		int v1 = 3;
+		int v2 = 12;
+		double f1 = 3.0;
+		// 1
+		r1 = v1 * 4;
+		Console.WriteLine("Resultado 1 : ");
+		Console.WriteLine(r1);
+		// 2
+		r2 = v2 / v1;
+		Console.WriteLine("Resultado 2 : ");
+		Console.WriteLine(r2);
+		// 3
+		r3 = v2 % v1;
+		Console.WriteLine("Resultado 3 : ");
+		Console.WriteLine(r3);
+		// 4
+		r4 = v2 % 7;
+		Console.WriteLine("Resultado 4 : ");
+		Console.WriteLine(r4);
+		// 5
+		r5 = v1 + f1;
+		Console.WriteLine("Resultado 5 : ");
+		Console.WriteLine(r5);
+		// 6
+		r6 = 10 / 100;
+		Console.WriteLine("Resultado 6 : ");
+		Console.WriteLine(r6);
+
+		
+		//// PRACTICA C
+		// EJERCICIO 1.1
+		int num1;
+		Console.WriteLine("Ingrese un número: ");
+		num1 = (Console.ReadLine());
+		cuadrado = num1 * num1;
+		Console.WriteLine("El cuadrado del numero es de : "(cuadrado));
+		
+
+		// EJERCICIO 1.2
+		int x;
+		Console.WriteLine("Ingrese un número: ");
+		x = (Console.ReadLine());
+		a = x * 2;
+		b = x * 3;
+		c = x * 4;
+		d = x * 5;
+		Console.WriteLine(x);
+		Console.WriteLine(a);
+		Console.WriteLine(b);
+		Console.WriteLine(c);
+		Console.WriteLine(d);
+
+
+		// EJERCICIO 1.3
+		double peso;
+		double libras = 2.2;
+		Console.WriteLine("Ingrese su peso: ");
+		peso = (Console.ReadLine());
+		pesos = peso * libras;
+		Console.WriteLine("Su peso en libras es de : "(pesos));
+
+
+		// EJERCICIO 1.4
+		int v1;
+		Console.WriteLine("Ingrese el primer numero: ");
+		v1 = (Console.ReadLine());
+		int v2;
+		Console.WriteLine("Ingrese el segundo numero: ");
+		v2 = (Console.WriteLine());
+		int v3;
+		Console.WriteLine("Ingrese el tercer numero: ");
+		v3 = (Console.ReadLine());
+		double total = v1 + v2 + v3;
+		double promedio = total / 3;
+		Console.WriteLine("El promedio de los números es de "(promedio));
+		
+
+		// EJERCICIO 1.5
+		double cuenta;
+		Console.WriteLine("Ingrese el total de la cuenta y el porcentaje de propina a aplicar");
+		Console.WriteLine("Total de la cuenta: ");
+		cuenta = (Console.ReadLine());
+		int porcentaje;
+		Console.WriteLine("Porcentaje de propina: ");
+		porcentaje = (Console.ReadLine());
+		double propina = cuenta + ((porcentaje * cuenta) / 100);
+		Console.WriteLine("La cantidad a dar de propina es de "(propina));
+
+
+		// EJERCICIO 1.6
+		int numero;
+		Console.WriteLine("Ingrese un número: ");
+		numero = (Console.ReadLine());
+		if (numero > 100)
+		{
+			Console.WriteLine("El número es mayor a 100");
+		}
+		else
+		{
+			Console.WriteLine("El numero es menor a 100");
+		}
+		
+
+		// EJERCICIO 1.7 
+		int numero2;
+		Console.WriteLine("Ingrese un número: ");
+		numero2 = (Console.ReadLine());
+		if (numero2 < 0)
+		{
+			Console.WriteLine("El numero es negativo");
+		}
+		else
+		{
+			Console.WriteLine("El numero es positivo");
+		}
+		
+
+		// EJERCICIO 1.8
+		string email;
+		string passwordIngresado;
+		Console.WriteLine("Ingresa tu email: ");
+		email = (Console.ReadLine());
+		Console.WriteLine("Contraseña: ");
+		passwordIngresado = (Console.ReadLine());
+		if (passwordIngresado == "12345")
+		{
+			Console.WriteLine("Contraseña correcta");
+		}
+		else
+		{
+			Console.WriteLine("Contraseña incorrecta");
+		}
+		
+
+		// EJERCICIO 1.9
+		float farenheith;
+		Console.WriteLine("Ingrese los grados Frenheith: ");
+		farenheith = (Console.ReadLine());
+		float grados = ((farenheith - 32) * 5) / 9;
+		if (farenheith == 32)
+		{
+			Console.WriteLine("Cero grados centigrados");
+		}
+		else
+		{
+			Console.WriteLine(" centigrados");
+		}
+		
+
+		// EJERCICIO 1.10
+		double peso2, estatura;
+		double mc;
+		Console.WriteLine("Ingresa tu peso: ");
+		peso2 = (Console.ReadLine());
+		Console.WriteLine("Ingresa tu estatura: ");
+		estatura = (Console.ReadLine());
+		mc = peso2 / (estatura * estatura);
+		Console.WriteLine("Masa corporal: "(mc));
+		if (mc < 18.5)
+		{
+			Console.WriteLine("Abajo del peso normal");
+		}
+		if (mc >= 18.5 and mc < 25)
+		{
+			Console.WriteLine("Peso normal");
+		}
+		if (mc >= 25 and mc < 30)
+		{
+			Console.WriteLine("Sobrepeso");
+		}
+		if (mc >= 30 and mc < 35)
+		{
+			Console.WriteLine("Obeso clase 1");
+		}
+		if (mc >= 35 and mc < 40)
+		{
+			Console.WriteLine("Obeso clase 2");
+		}
+		if (mc >= 40)
+		{
+			Console.WriteLine("Obeso clase 3");
+		}
+
+	}
