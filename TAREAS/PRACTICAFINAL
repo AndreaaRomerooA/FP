@@ -1,5 +1,6 @@
 
-		//// PRACTICA B
+{		
+//// PRACTICA B
 		// EJERCICIO 1.1
 		// 1
 		int resultado1 = 3 + 5 * 2 / 2 - 1;
@@ -240,5 +241,248 @@
 		{
 			Console.WriteLine("Obeso clase 3");
 		}
+
+		//// PRACTICA D
+
+	// EJERCICIO 1.16 
+     int n1, n2, n3;
+    Console.WriteLine("Ingrese el primer número: ");
+    n1 = (Console.ReadLine());
+    Console.WriteLine("Ingrese el segundo numero: ");
+    n2 = (Console.ReadLine());
+    Console.WriteLine("Ingrese el tercer numero: ");
+    n3 = (Console.ReadLine());
+    if (n1 > n2 and n1 > n3)
+    {
+        Console.WriteLine("Mayor es "(n1));
+    }
+    if (n2 > n1 and n2 > n3)
+    {
+        Console.WriteLine("El numero mayor es "(n2));
+    }
+    if (n3 > n1 and n3 > n2)
+    {
+        Console.WriteLine("El numero mayor es "(n3));
+    }
+    
+
+    // EJERCICIO 1.17
+    int num1, num2, num3;
+    Console.WriteLine("Primer numero: ");
+    num1 = (Console.ReadLine());
+    Console.WriteLine("Segundo numero: ");
+    num2 = (Console.ReadLine());
+    Console.WriteLine("Tercer numero: ");
+    num3 = (Console.ReadLine());
+    if (num1 > num2 and num1 > num3)
+    {
+        Console.WriteLine("EL valor maximo es "(num1));
+    }
+    if (num2 > num1 and num2 > num3)
+    {
+        Console.WriteLine("El valor maximo es "(num2));
+    }
+    if (num3 > num1 and num3 > num2)
+    {
+        Console.WriteLine("El valor maximo es "(num3));
+    }
+    if (num1 > num2 and num1 < num3)
+    {
+        Console.WriteLine("El valor minimo es  "(num1));
+    }
+    if (num2 < num1 and num2 < num3)
+    {
+        Console.WriteLine("El valor minimo es "(num2));
+    }
+    if (num3 < num1 and num3 < num2)
+    {
+        Console.WriteLine("El valor minimo es "(num3));
+    }
+
+
+    // EJERCICIO 1.18 
+    int hh, mm, ss;
+    Console.WriteLine("Ingresa la hora");
+    Console.WriteLine("Hora: ");
+    hh = (Console.ReadLine());
+    Console.WriteLine("Minutos: ");
+    mm = (Console.ReadLine());
+    Console.WriteLine("Segundos: ");
+    ss = (Console.ReadLine());
+    if (ss == 59)
+    {
+        Console.WriteLine("La hora actual es "(hh)":"(mm + 1)":00");
+    }
+    else 
+    {
+        Console.WriteLine("La hora actual es "(hh)":"(mm)":"(ss + 1));
+    }
+    
+
+    // EJERCICIO 1.19
+    Console.WriteLine("Distancia a recorrer: ");
+    distancia = (Console.ReadLine());
+    int vuelo = distancia * 2;
+    int precio = vuelo * 2.5;
+    int dinero = precio * 0.70;
+    if (distancia > 800)
+    {
+        Console.WriteLine("El precio del boleto es de $ US "(dinero));
+    }
+    else 
+    {
+        Console.WriteLine("El precio del boleto es de $ US "(precio));
+    }
+
+
+    // EJERCICIO 1.20
+    int ang;
+    Console.WriteLine("Angulo: ");
+    ang = (Console.ReadLine());
+    if (ang == 90)
+    {
+        Console.WriteLine("El angulo es un angulo recto");
+    }
+    else
+    {
+        Console.WriteLine("El angulo no es un angulo recto");
+    }
+
+    // Si la temperatura es superior a 100 grados, visualizar el mensaje “por encima del punto de ebullición del agua” sino visualizar el mensaje “por debajo del punto de ebullición del agua”.
+    int temp;
+    Console.WriteLine("Temperatura: ");
+    temp = (Console.ReadLine());
+    if (temp > 100)
+    {
+        Console.WriteLine("Por encima del punto de ebullicion del agua");
+    }
+    else
+    {
+        Console.WriteLine("Por debajo del punto de ebullicion del agua");
+    }
+
+
+    // Si “x” es mayor que “y”, y “z” es menor que “y”, imprimir “x”.
+    int x, y, z;
+    Console.WriteLine("x = ");
+    x = (Console.ReadLine());
+    Console.WriteLine("y = ");
+    y = (Console.ReadLine());
+    Console.WriteLine("z = ");
+    z = (Console.ReadLine());
+    if (x > y and z < y)
+    {
+        Console.WriteLine(x);
+    }
+    
+
+    // Si la distancia es mayor que 20 y menos que 35, crear y leer un valor para luna variable de tipo entero llamada “tiempo”.
+    int dist, tiempo;
+    Console.WriteLine("Distancia: ");
+    dist = (Console.ReadLine());
+    Console.WriteLine("Tiempo: ");
+    tiempo = (Console.ReadLine());
+    if (dist > 20 and dist < 35)
+    {
+        Console.WriteLine(tiempo);
+    }
+
+
+//// PRACTICA E
+
+ // EJERCICIO 1.21 
+        string opcion1;
+        do
+        {
+            Console.WriteLine("¿Quieres salir del ciclo? [SI / NO] ");
+            opcion1 = (Console.ReadLine());
+        } while (opcion1 != "SI");
+        
+
+
+        // EJERCICIO 1.22
+        int numero1, numero2, total;
+        string opcion2;
+        do
+        {
+            Console.WriteLine("Menu de operaciones");
+            Console.WriteLine("a) Suma de dos operandos");
+            Console.WriteLine("b) Resta de dos operandos");
+            Console.WriteLine("c) Multiplicacion de dos operandos");
+            Console.WriteLine("d) Division de dos operandos");
+            Console.WriteLine("e) Residuo de dos operandos");
+            Console.WriteLine("f) Salir del menu");
+           opcion2 = (Console.ReadLine());
+            Console.WriteLine("Primer numero: ");
+            numero1 = (Console.ReadLine());
+            Console.WriteLine("Segundo numero: ");
+            numero2 = (Console.ReadLine());
+            if (opcion2 == "a")
+            {
+                Console.WriteLine("Resultado de operacion: "(numero1 + numero2));
+            }
+            if (opcion2 == "b")
+            {
+                Console.WriteLine("Resultado de operacion: "(numero1 - numero2));
+            }
+            if (opcion2 == "c")
+            {
+                Console.WriteLine("Resultado de operacion: "(numero1 * numero2));
+            }
+            if (opcion2 == "d")
+            {
+                Console.WriteLine("Resultado de operacion: "(numero1 / numero2));
+            }
+            if (opcion2 == "e")
+            {
+                Console.WriteLine("Resultado de operacion: " (numero1 % numero2));
+            }
+        } while (opcion2 != "f");
+        break;
+
+
+        // EJERCICIO 1.23
+        long long numTarjeta, dinero;
+        int pin;
+        string opcion3;
+        Console.WriteLine("Ingrese su numero de tarjeta: ");
+        numTarjeta = (Console.ReadLine());
+        Console.WriteLine("Ingrese su pin: ");
+        pin = (Console.ReadLine());
+        do
+            {
+                if (pin == "1234")
+                {
+                Console.WriteLine("Menu de operaciones cajero Unitec");
+                Console.WriteLine("a Consulta de saldo");
+                Console.WriteLine("b Retiro de dinero");
+                Console.WriteLine("c Cancelar operacion");
+                } else 
+                { 
+                    Console.WriteLine("Pin incorrecto");
+                }
+                opcion3 = (Console.ReadLine());
+                if (opcion3 == "a")
+                {
+                    Console.WriteLine("Saldo: $3450.50");
+                }
+                if (opcion3 == "b")
+                {
+                    Console.WriteLine("Dinero a retirar: ");
+                    dinero = (Console.ReadLine());
+                    if (dinero > 3450)
+                    { 
+                        Console.WriteLine("Fondos insuficientes");
+                    }
+                    else 
+                    { 
+                        Console.WriteLine("Saldo remanente: $"(3450.50 - dinero));
+                    }
+                }   
+            }
+            while (opcion3 != "c");
+        break;
+
+	
 
 	}
